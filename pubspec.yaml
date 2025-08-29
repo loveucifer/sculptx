@@ -1,0 +1,40 @@
+name: sculptx
+description: A synesthetic composer that turns 3D shapes into sound.
+publish_to: "none"
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Used for 3D vector and matrix math to transform the cube.
+  vector_math: ^2.1.4
+  change_app_package_name: ^1.1.0
+
+  # A modern, low-level audio plugin for games and immersive apps.
+  flutter_soloud: ^3.3.0
+  # for logo shit
+  flutter_launcher_icons: ^0.13.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
