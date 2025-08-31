@@ -2,9 +2,14 @@
   <img src="assets/images/icon.png" alt="SculptX Logo" width="150"/>
 </p>
 
+# SCULPTX
 
+<p align="center">
+  <img src="assets/images/SCULPTX1.png" alt="SculptX Screenshot 1" width="300" style="margin-right:10px;"/>
+  &nbsp;&nbsp;
+  <img src="assets/images/SCULPTX2.png" alt="SculptX Screenshot 2" width="300"/>
+</p>
 
-# SculptX
 
 ### Turn Visual Form into Audible Sound.
 
