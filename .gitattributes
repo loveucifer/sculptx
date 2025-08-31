@@ -1,0 +1,11 @@
+
+*.dart linguist-detectable=true
+
+
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+
+/build/* linguist-vendored
+/.dart_tool/* linguist-vendored
